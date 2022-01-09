@@ -20,29 +20,32 @@
   <body>
   <!--Menu y slider-->
   <header>
-  <nav class="navbar navbar-expand-lg" style=" background-color: transparent fixed-top !important;">
-    <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">
-        <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        Viajes Chile
-      </a>
-      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="dark-blue-text">
-          <i class="fas fa-bars fa-1x">
-            ::before
-          </i>
-        </span>
-      </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="#inicio" class="nav-link text-light">Inicio</a></li>                                    
-                <li class="nav-item"><a href="#quienes-somos" class="nav-link text-light">Quiénes somos</a></li>
-                <li class="nav-item"><a href="#destacados" class="nav-link text-light">Destacados</a></li>
-                <li class="nav-item"><a href="#contacto" class="nav-link text-light">Contacto</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg barra" style="background-color: transparent; ">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#"> <img src="./assets/img/viajes.svg" width="40px" height="40px" alt="viajes"> Viajes Chile</a>
+        <button class="navbar-toggler toggler-example collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars fa-1x"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienes-somos">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
 <div id="inicio" class="slider">
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -75,18 +78,18 @@
 <!--Quienes somos-->
 <section id="quienes-somos" class="my-5">
   <div class="container d-sm-block d-none">
-    <h2>¿Quiénes somos?</h2>
+    <h2 class="font-weight-bold text-center">¿Quiénes somos?</h2>
     <hr>
           <div class="row">
-        <div class="col-md-4">
+        <div class="col-12 col-md-4">
           <i class="fas fa-plane fa-2x my-3"></i>
           <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quo dolore recusandae pariatur nemo inventore saepe ipsum tempore velit, debitis repellat impedit quibusdam in quidem assumenda quaerat officiis eius aliquid. Iste temporibus mollitia deleniti dicta soluta facere eligendi laudantium saepe consectetur nostrum voluptate provident, suscipit, et blanditiis aut qui neque ipsa nemo, ipsam consequatur iusto dolorem. Enim commodi exercitationem dolor.</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-12 col-md-4">
           <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quo dolore recusandae pariatur nemo inventore saepe ipsum tempore velit, debitis repellat impedit quibusdam in quidem assumenda quaerat officiis eius aliquid. Iste temporibus mollitia deleniti dicta soluta facere eligendi laudantium saepe consectetur nostrum voluptate provident, suscipit, et blanditiis aut qui neque ipsa nemo, ipsam consequatur iusto dolorem. Enim commodi exercitationem dolor.</p>
           <i class="fas fa-mountain fa-2x my-3"></i>
         </div>
-        <div class="col-md-4">
+        <div class="col-12 col-md-4">
           <i class="fas fa-route fa-2x my3"></i>
           <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quo dolore recusandae pariatur nemo inventore saepe ipsum tempore velit, debitis repellat impedit quibusdam in quidem assumenda quaerat officiis eius aliquid. Iste temporibus mollitia deleniti dicta soluta facere eligendi laudantium saepe consectetur nostrum voluptate provident, suscipit, et blanditiis aut qui neque ipsa nemo, ipsam consequatur iusto dolorem. Enim commodi exercitationem dolor.</p>
         </div>
@@ -97,7 +100,7 @@
 <!--Destacados-->
 <section id="destacados">
   <div class="container">
-  <h2>Destacados</h2>
+  <h2 class="font-weight-bold text-center">Destacados</h2>
   <hr>
 
   <div class="row py-5">
@@ -144,7 +147,7 @@
 <!--formulario-->
 <section id="contacto">
   <div class="container">
-    <h2>Contacto</h2>
+    <h2 class="font-weight-bold text-center">Contacto</h2>
     <hr>
     <div data-tf-widget="ZFBTU0Om" data-tf-iframe-props="title=Viajes Chile" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
   </div>
@@ -156,7 +159,7 @@
     <div class="col-6">
     <h2 id="titulofooter" class="text-left">VIAJES CHILE</h2>
   </div>
-  <div class="col-6 text-right">
+  <div id="iconos" class="col-6 text-right">
     <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
     <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
     <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
