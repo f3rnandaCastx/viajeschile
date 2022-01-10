@@ -25,24 +25,29 @@ hr {
 
 }
 
-.fa-plane {
-    background-color: #00a5ba;
-    margin-left: 0;
-    text-align: center;
-    padding: 1px 5em;
+.fa-plane,
+.fa-route,
+.fa-mountain {
+  background-color: #00a5ba;
+  margin-left: 0;
+  padding: 0 10rem;
 }
 
 .card {
     background-color: #00a5ba;
 }
 
+.card-img-top {
+    max-height: 10rem;
+}
 footer {
     background-color: #00a5ba;
     color: white;
 }
 
-#iconos {
-    text-align: right;
-    color: white
+footer i {
+    padding: 3px;
+    margin-top: 3px;
+    color: white;
 }
 
